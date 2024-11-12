@@ -1,6 +1,6 @@
-# **Readme: Instructions for Completing the Ontology Spreadsheet**
+# **Readme: Instructions for Completing the Data Dictionary Spreadsheet**
 
-Welcome to the ontology development project! This guide is designed to help you, as a biologist, accurately fill out the spreadsheet that will contribute to the creation of a salmon ontology for data integration. Your expertise is invaluable in ensuring that the terms and definitions we use are accurate and comprehensive.
+This guide is designed to help you, as a biologist, accurately fill out the spreadsheet that will contribute to the creation of a salmon ontology for data integration. Your expertise is invaluable in ensuring that the terms and definitions we use are accurate and comprehensive.
 
 Below, you will find detailed instructions for each column in the spreadsheet:
 
