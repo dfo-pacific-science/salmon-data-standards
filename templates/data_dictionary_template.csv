@@ -1,0 +1,4 @@
+Source Ontology,ID,Column Name,Label,Definition,Definition Source (if available),Notes,Needs Vocabulary Definition?
+NA,,LRP,Limit Reference Point,"""The LRP represents the stock status, usually in terms of biomass (or abundance), below which “serious harm” to the stock  may be incurred. In Canada and elsewhere, serious harm is considered to include recruitment  overfishing or other impairment to productive capacity.""",https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/40965715.pdf,,Yes
+SALMON,SALMON_00000782,recruits,Recruits,"""A count or other estimate of the number of fish returning to a breeding site from a spawning individual.""","	
+http://purl.dataone.org/odo/SALMON_00000782",,No
