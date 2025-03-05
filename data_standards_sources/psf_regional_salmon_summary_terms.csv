@@ -1,0 +1,20 @@
+Column,Definition
+region,"One of nine regions defined for organizing data in the PSE: Yukon, Transboundary, Haida Gwaii, Nass, Skeena, Central Coast, VIMI, Fraser, Columbia"
+species,"One of six species: Chinook, chum, coho, pink, sockeye, steelhead"
+year,Calendar year the estimates correspond to
+spawners,"The raw spawner abundance estimate (may be an index, model estimate, or absolute count depending on region and species)"
+smoothedSpawners,Spawners smoothed using a right-aligned running geometric mean over the dominant generation length for the region and species.
+runsize,"The raw run size estimate (a.k.a. total abundance; may be an index, model estimate, or absolute count depending on region and species)"
+smoothedRunsize,Run size smoothed using a right-aligned running geometric mean over the dominant generation length for the region and species.
+spawners_short_trend,The predicted number of spawners from a linear trend fitted over the most recent three generations.
+spawners_short_trend_lwr,The lower 95% prediction interval on the number of spawners from a linear trend fitted over the most recent three generations.
+spawners_short_trend_upr,The upper 95% prediction interval on the number of spawners from a linear trend fitted over the most recent three generations.
+spawners_long_trend,The predicted number of spawners from a linear trend fitted over the entire time series.
+spawners_long_trend_lwr,The lower 95% prediction interval on the number of spawners from a linear trend fitted over the entire time series.
+spawners_long_trend_upr,The upper 95% prediction interval on the number of spawners from a linear trend fitted over the entire time series.
+runsize_short_trend,The predicted run size from a linear trend fitted over the most recent three generations.
+runsize_short_trend_lwr,The lower 95% prediction interval on the run size from a linear trend fitted over the most recent three generations.
+runsize_short_trend_upr,The upper 95% prediction interval on the run size from a linear trend fitted over the most recent three generations.
+runsize_long_trend,The predicted run size from a linear trend fitted over the entire time series.
+runsize_long_trend_lwr,The lower 95% prediction interval on the run size from a linear trend fitted over the entire time series.
+runsize_long_trend_upr,The upper 95% prediction interval on the run size from a linear trend fitted over the entire time series.

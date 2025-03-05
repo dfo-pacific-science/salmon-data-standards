@@ -1,0 +1,95 @@
+Column,Definition,Units,Definition.Source..if.available.,Type,Reference.data,...7,source
+TOTAL_EXPLOITATION_RATE,"The proportion of a fish population that is harvested or removed through fishing activities in a given period, typically over a season or year. It is expressed as a percentage of the total population or run size of the species being managed.",Ratio,NA,REAL,NA,NA,SPSR
+YEAR,Return Year? or Year of Catch? or Brood Year?,NA,NA,INTEGER,NA,NA,SPSR
+MAINSTEM_MORTALITY_RATE,"The proportion of fish that die while migrating through the mainstem of a river system, which is typically the primary, large river channel. It reduces the number of fish reaching their spawning ground.",Ratio,NA,REAL,NA,NA,SPSR
+OCEAN_MORTALITY_RATE,"The proportion of fish that die while at sea, due to natural causes such as predation, disease, starvation, or unfavorable environmental conditions. It affects overall survival before returning to rivers",Ratio,NA,REAL,NA,NA,SPSR
+TERMINAL_MORTALITY_RATE,"The proportion of fish that die in the terminal area (near or at their spawning grounds) before they can spawn. Terminal areas are typically in rivers or estuaries. This rate affects the spawning population and recruitment success, directly impacting the stockâ€™s ability to replenish.",Ratio,NA,REAL,NA,NA,SPSR
+CWT_MARINE_SURVIVAL_RATE,The number of tagged fish recovered as adults is compared to the total number of tagged smolts released.,Ratio,NA,REAL,NA,NA,SPSR
+MAINSTEM_AGE_1,"Number of fish catch in mainstem at age 1 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+MAINSTEM_AGE_2,"Number of fish catch in mainstem at age 2 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+MAINSTEM_AGE_3,"Number of fish catch in mainstem at age 3 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+MAINSTEM_AGE_4,"Number of fish catch in mainstem at age 4 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+MAINSTEM_AGE_5,"Number of fish catch in mainstem at age 5 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+MAINSTEM_AGE_6,"Number of fish catch in mainstem at age 6 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+MAINSTEM_AGE_7,"Number of fish catch in mainstem at age 7 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+OCEAN_AGE_1,"Number of fish catch in ocean at age 1 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+OCEAN_AGE_2,"Number of fish catch in ocean at age 2 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+OCEAN_AGE_3,"Number of fish catch in ocean at age 3 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+OCEAN_AGE_4,"Number of fish catch in ocean at age 4 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+OCEAN_AGE_5,"Number of fish catch in ocean at age 5 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+OCEAN_AGE_6,"Number of fish catch in ocean at age 6 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+OCEAN_AGE_7,"Number of fish catch in ocean at age 7 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TERMINAL_AGE_1,"Number of fish catch in terminal at age 1 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TERMINAL_AGE_2,"Number of fish catch in terminal at age 2 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TERMINAL_AGE_3,"Number of fish catch in terminal at age 3 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TERMINAL_AGE_4,"Number of fish catch in terminal at age 4 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TERMINAL_AGE_5,"Number of fish catch in terminal at age 5 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TERMINAL_AGE_6,"Number of fish catch in terminal at age 6 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TERMINAL_AGE_7,"Number of fish catch in terminal at age 7 at Population, SMU or PFMA scale",Number of fish,NA,INTEGER,NA,NA,SPSR
+TOTAL_CATCH,"This includes harvest numbers from commercial, recreational, and First Nations fisheries, at SMU scale.",Number of fish,NA,INTEGER,NA,NA,SPSR
+TOTAL_MORTALITY_RATE,"In fisheries, total mortality rates in general refers to the proportion of a population that dies during a specific time period, regardless of the cause., here is at SMU scale",Ratio,NA,REAL,NA,NA,SPSR
+ER,Estimated annual calendar year  of Exploitation Rate at CU or PFMA scale,Ratio,NA,decimal,NA,NA,SPSR
+TOTAL_SPAWNERS,"The number of adult fish returning to spawning grounds, which indicates reproductive success and future population potential.",Number of fish,NA,INTEGER,NA,NA,SPSR
+SPAWNERS_AGE_1,Total spawners age 1 at Population scale,Number of fish,NA,INTEGER,NA,NA,SPSR
+SPAWNERS_AGE_2,Total spawners age 2 at Population scale,Number of fish,NA,INTEGER,NA,NA,SPSR
+SPAWNERS_AGE_3,Total spawners age 3 at Population scale,Number of fish,NA,INTEGER,NA,NA,SPSR
+SPAWNERS_AGE_4,Total spawners age 4 at Population scale,Number of fish,NA,INTEGER,NA,NA,SPSR
+SPAWNERS_AGE_5,Total spawners age 5 at Population scale,Number of fish,NA,INTEGER,NA,NA,SPSR
+SPAWNERS_AGE_6,Total spawners age 6 at Population scale,Number of fish,NA,INTEGER,NA,NA,SPSR
+SPAWNERS_AGE_7,Total spawners age 7 at Population scale,Number of fish,NA,INTEGER,NA,NA,SPSR
+TOTAL_BROODSTOCK_REMOVED,"Refers to the number of fish that are deliberately taken from a population, typically from a river or hatchery, to be used as broodstock for artificial propagation in hatcheries or other enhancement programs.",Number of fish,NA,INTEGER,NA,NA,SPSR
+HATCHERY_ORIGIN_BROODSTOCK,"Refers to broodstock fish that were born or reared in a hatchery and later selected for breeding purposes within the hatchery system., It's also called ""Enhanced Salmon"", originating from hatchery production.",Number of fish,Withler_SEP_2018.pdf,INTEGER,NA,NA,SPSR
+NATURAL_ORIGIN_BROODSTOCK,Refers to broodstock fish that are born and reared in the wild (natural environment) but are later collected and used in hatchery breeding programs.,Number of fish,NA,INTEGER,NA,NA,SPSR
+pHOS,TheÂ proportion of hatchery-origin spawners,Ratio,Withler_SEP_2018.pdf,INTEGER,NA,NA,SPSR
+ENHANCEMENT_OBJECTIVE,"The specific goal or purpose of a fish enhancement program, often aimed at increasing the productivity, survival, or abundance of a fish population to support conservation, fisheries, or ecosystem needs.",NA,Withler_SEP_2018.pdf,varchar(100),NA,NA,SPSR
+ENHANCEMENT_TARGET,"A quantitative or qualitative benchmark set within an enhancement program that defines the desired outcome, such as the number of fish released, survival rates, or spawner returns.",Number of fish,Withler_SEP_2018.pdf,REAL,NA,NA,SPSR
+MARINE_SURVIVAL_INDEX,"A measure or metric used to evaluate the survival rate of fish during their time in the ocean, often expressed as a percentage of juveniles that survive to return as adults.",Ratio,NA,REAL,NA,NA,SPSR
+EXPANSION_FACTOR,"Expansion factor for run reconstruction if catch at PFMA, is a tool to estimate the total run size of fish in a specific Pacific Fisheries Management Area, scaling up from observed catch numbers to account for unobserved components of the population.",Number of fish,NA,REAL,NA,NA,SPSR
+IS_ENHANCED,Y/N/NA,NA,NA,varchar(10),NA,NA,SPSR
+RECRUITS,"The number of juvenile fish (recruits) that survive to join the adult population, crucial for understanding population dynamics. Recruitment is typically inferred from the number of spawners, environmental conditions, and population dynamics models. It is not measured directly by test fisheries or spawner surveys. Instead, recruitment is estimated using spawner-recruit models, which predict future population sizes based on the number of spawners, environmental conditions, and historical data.",Number of fish,http://purl.dataone.org/odo/SALMON_00000782,INTEGER,NA,NA,SPSR
+CU_NAME,"Name of Conservation Unit,  A CU is defined as a group of wild salmon sufficiently isolated from other groups that, if lost, are very unlikely to recolonize naturally within an acceptable timeframe (e.g. a human lifetime or a specified number of salmon generations) (DFO 2005).",NA,DFO 2005,varchar(50),NA,NA,SPSR
+UPPER_MANAGEMENT_LEVEL,Upper reference point for the PFMA,Number of fish,NA,INTEGER,NA,NA,SPSR
+LOWER_MANAGEMENT_LEVEL,Mgmt Level - can represent either escapement targets or inflection points on HCR or removal reference for the PFMA,Number of fish,NA,INTEGER,NA,NA,SPSR
+PFMA_NAME,Pacific Fishery Management Areas are a division of Canadian fisheries waters as enumerated and described in ScheduleÂ 2 and includes the portion of any stream that flows into that division and that is seaward of the mean high water mark near the mouth of that stream.Â The areas in the Canadian fisheries waters of the Pacific Ocean described in Schedule 2 are hereby prescribed as management areas.,NA,NA,varchar(50),NA,NA,SPSR
+POP_NAME,NA,NA,NA,NA,NA,NA,SPSR
+SPECIES,Species name,NA,NA,varchar(25),NA,NA,SPSR
+LIMIT_REFERENCE_POINT,"The LRP represents the stock status, usually in terms of biomass (or abundance), below which â€œserious harmâ€ to the stock  may be incurred. In Canada and elsewhere, serious harm is considered to include recruitment  overfishing or other impairment to productive capacity. When the stock falls below LRP, urgent management actions are required to rebuild the population and prevent further depletion. It represents the minimum level needed to sustain a fish population over time. Under the Fish Stocks provisions, the LRP is determined solely by DFO Science based on biological considerations.",Number of fish,https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/40965715.pdf,INTEGER,NA,NA,SPSR
+UPPER_STOCK_REFERENCE,"The primary role of the USR is to serve as a threshold to progressive reduction of the fishing mortality rate to avoid stock status reaching the LRP. The USR is also assigned the role of delineating the threshold between what are termed the Cautious and Healthy Zones. When stock levels are above USR, they are considered healthy. However, if they drop below the USR but remain above the LRP, the stock enters the cautious zone, signaling a need for more conservative management measures to prevent further decline.",Number of fish,https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/40965715.pdf,INTEGER,NA,NA,SPSR
+TARGET_REFERENCE,"A management target reference point that represents a desired stock or exploitation level, often based on social, economic, and ecological considerations, in addition to biological ones.",Number of fish,NA,INTEGER,NA,NA,SPSR
+REMOVAL_REFERENCE,"RR epresents the maximum proportion of the population that can be harvested without jeopardizing the stockâ€™s ability to replenish itself. It can be expressed in terms of Fishing mortality, Harvest rate or Fishing effort.",Ratio,NA,decimal,NA,NA,SPSR
+INDICATOR_CWT,Refer to specific metrics or data derived from CWTs (like survival or exploitation rates). Or It's Y/N/NA to a population as a CWT indicator for the entire SMU?,NA,NA,varchar(25),NA,NA,SPSR
+SMU_NAME,Stock management unit name,NA,Peter Lunka's Crosswalk,varchar(50),NA,NA,SPSR
+START_YEAR,"The start year the salmon unit (i.e., population, CU, SMU, PMFA) was active. Generally active unit's are labelled as current.",NA,NA,INTEGER,NA,NA,SPSR
+END_YEAR,"The year the unit (i.e., population, CU, SMU, PMFA) ends being active.",NA,NA,INTEGER,NA,NA,SPSR
+METHOD,Data Anylsis method in report ?,NA,NA,varchar(100),NA,NA,SPSR
+REFERENCE,A list of sources cited or consulted for the report,NA,NA,varchar(100),NA,NA,SPSR
+CONTACT,Data Steward or Expert,NA,NA,varchar(100),NA,NA,SPSR
+COMMENTS,NA,NA,NA,NA,NA,NA,SPSR
+INFORMATION_QUALITY,?,NA,NA,INTEGER,NA,NA,SPSR
+LOWER_CI_LOWER,"The lower bound of the confidence interval (CI) for the lower limit of a stock-related metric, at CU scale. Example: If a lower CI is calculated at 90%, and the range is 100,000â€“200,000, this would be the lower value (100,000).",Number of fish,NA,INTEGER,NA,NA,SPSR
+UPPER_CI_LOWER,"The lower bound of the confidence interval (CI) for the upper limit of a stock-related metric. For an upper CI of 400,000â€“600,000, this would be the lower value (400,000).",Number of fish,NA,INTEGER,NA,NA,SPSR
+LOWER_WSP_BENCHMARK,"A benchmark defined under Canadaâ€™s Wild Salmon Policy (WSP) that indicates the lower threshold of spawner abundance or stock health. If stock falls below this level, it is typically considered critical, requiring urgent conservation action. It is specifically tied to Canadaâ€™s Wild Salmon Policy and Conservation Unit (CU) scales, while the LRP is a more general reference point applied across fisheries globally.",Number of fish,NA,INTEGER,NA,NA,SPSR
+LOWER_CI_UPPER,"The upper bound of the confidence interval (CI) for the lower limit of a stock-related metric, at CU scale.  Using the same example, this would be the upper value of the CI range for the lower limit (200,000).",Number of fish,NA,INTEGER,NA,NA,SPSR
+UPPER_CI_UPPER,"The upper bound of the confidence interval (CI) for the upper limit of a stock-related metric. For the same upper CI, this would be the upper value (600,000).",Number of fish,NA,INTEGER,NA,NA,SPSR
+UPPER_WSP_BENCHMARK,"A benchmark defined under the WSP indicating the upper threshold of spawner abundance or stock health. Indicates a healthy stock level or management target, where no additional conservation actions may be needed.",Number of fish,NA,INTEGER,NA,NA,SPSR
+RANGE_LOWER,The lower range of a Confidence Interval (CI),NA,NA,decimal,NA,NA,SPSR
+RANGE_UPPER,The upper range of a Confidence Interval (CI),NA,NA,decimal,NA,NA,SPSR
+region,"One of nine regions defined for organizing data in the PSE: Yukon, Transboundary, Haida Gwaii, Nass, Skeena, Central Coast, VIMI, Fraser, Columbia",NA,NA,NA,NA,NA,PSF
+species,"One of six species: Chinook, chum, coho, pink, sockeye, steelhead",NA,NA,NA,NA,NA,PSF
+year,Calendar year the estimates correspond to,NA,NA,NA,NA,NA,PSF
+spawners,"The raw spawner abundance estimate (may be an index, model estimate, or absolute count depending on region and species)",NA,NA,NA,NA,NA,PSF
+smoothedSpawners,Spawners smoothed using a right-aligned running geometric mean over the dominant generation length for the region and species.,NA,NA,NA,NA,NA,PSF
+runsize,"The raw run size estimate (a.k.a. total abundance; may be an index, model estimate, or absolute count depending on region and species)",NA,NA,NA,NA,NA,PSF
+smoothedRunsize,Run size smoothed using a right-aligned running geometric mean over the dominant generation length for the region and species.,NA,NA,NA,NA,NA,PSF
+spawners_short_trend,The predicted number of spawners from a linear trend fitted over the most recent three generations.,NA,NA,NA,NA,NA,PSF
+spawners_short_trend_lwr,The lower 95% prediction interval on the number of spawners from a linear trend fitted over the most recent three generations.,NA,NA,NA,NA,NA,PSF
+spawners_short_trend_upr,The upper 95% prediction interval on the number of spawners from a linear trend fitted over the most recent three generations.,NA,NA,NA,NA,NA,PSF
+spawners_long_trend,The predicted number of spawners from a linear trend fitted over the entire time series.,NA,NA,NA,NA,NA,PSF
+spawners_long_trend_lwr,The lower 95% prediction interval on the number of spawners from a linear trend fitted over the entire time series.,NA,NA,NA,NA,NA,PSF
+spawners_long_trend_upr,The upper 95% prediction interval on the number of spawners from a linear trend fitted over the entire time series.,NA,NA,NA,NA,NA,PSF
+runsize_short_trend,The predicted run size from a linear trend fitted over the most recent three generations.,NA,NA,NA,NA,NA,PSF
+runsize_short_trend_lwr,The lower 95% prediction interval on the run size from a linear trend fitted over the most recent three generations.,NA,NA,NA,NA,NA,PSF
+runsize_short_trend_upr,The upper 95% prediction interval on the run size from a linear trend fitted over the most recent three generations.,NA,NA,NA,NA,NA,PSF
+runsize_long_trend,The predicted run size from a linear trend fitted over the entire time series.,NA,NA,NA,NA,NA,PSF
+runsize_long_trend_lwr,The lower 95% prediction interval on the run size from a linear trend fitted over the entire time series.,NA,NA,NA,NA,NA,PSF
+runsize_long_trend_upr,The upper 95% prediction interval on the run size from a linear trend fitted over the entire time series.,NA,NA,NA,NA,NA,PSF
