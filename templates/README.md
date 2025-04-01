@@ -1,5 +1,7 @@
 # **Readme: Instructions for Completing the Data Dictionary Spreadsheet**
 
+TODO: Refine: note that the data dictionary templates first row is metadata and the second row is the column name.
+
 This guide is designed to help you fill out the data dictionary spreadsheet accurately. This data dictionary plays a crucial role in defining and standardizing dataset variables, improving data integration, and ensuring clarity for future use.
 
 Below, you will find detailed instructions for each column in the spreadsheet.
