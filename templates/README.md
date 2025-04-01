@@ -26,7 +26,7 @@ Below, you will find detailed instructions for each column in the spreadsheet.
 
 ---
 
-### **3. Label for the variable name formatted nicely for clarity** (Required)
+### **3. Label for the variable name formatted nicely for clarity** (Recommended)
 - **What to Enter**: A human-readable version of the variable name.
 - **Purpose**: Makes datasets easier to interpret.
 - **How to Fill Out**:
@@ -35,7 +35,7 @@ Below, you will find detailed instructions for each column in the spreadsheet.
 
 ---
 
-### **4. Data Type (Categorical, Integer, Numeric, String)** (Required)
+### **4. Data Type (Categorical, Integer, Numeric, String)** (Recommended)
 - **What to Enter**: The data type that best represents the variable.
 - **Purpose**: Helps ensure proper handling of data during analysis.
 - **How to Fill Out**:
@@ -45,7 +45,7 @@ Below, you will find detailed instructions for each column in the spreadsheet.
 ---
 
 ### **5. URL or URI of Variable Definition** (Recommended)
-- **What to Enter**: A link to a controlled vocabulary or ontology where the term is formally defined.
+- **What to Enter**: A link to a controlled vocabulary or ontology where the term is formally defined. Ideally a URI or IRI, but a URL is OK.
 - **Purpose**: Improves interoperability and alignment with established standards.
 - **How to Fill Out**:
   - If a definition exists in an ontology, provide the corresponding URL/URI.
@@ -89,7 +89,7 @@ Below, you will find detailed instructions for each column in the spreadsheet.
 
 ---
 
-### **10. Categories or Controlled Vocabulary Reference** (Recommended if applicable)
+### **10. Accepted Categorical Values or Controlled Vocabulary Reference** (Recommended if applicable)
 - **What to Enter**: Either a comma-separated list of possible categorical values or a URI to a controlled vocabulary.
 - **Purpose**: Standardizes categorical variables for better consistency.
 - **How to Fill Out**:
