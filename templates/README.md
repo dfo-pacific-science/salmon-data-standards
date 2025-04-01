@@ -1,5 +1,3 @@
-# Define the markdown content for the updated README
-markdown_content = """\
 # **Readme: Instructions for Completing the Data Dictionary Spreadsheet**
 
 This guide is designed to help you fill out the data dictionary spreadsheet accurately. This data dictionary plays a crucial role in defining and standardizing dataset variables, improving data integration, and ensuring clarity for future use.
